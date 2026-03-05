@@ -20,7 +20,13 @@ Claude Code skills are **local Markdown files** — there is no central registry
 
 ## Quick Install
 
-**One-liner (all skills, global):**
+**Via Claude Code plugin marketplace (recommended):**
+
+```bash
+claude plugin marketplace add awais786/claude-skills
+```
+
+**Manual — all skills:**
 
 ```bash
 git clone git@github.com:awais786/claude-skills.git ~/claude-skills \
@@ -28,20 +34,14 @@ git clone git@github.com:awais786/claude-skills.git ~/claude-skills \
   && cp -r ~/claude-skills/skills/. ~/.claude/skills/
 ```
 
-**Single skill:**
+**Manual — single skill:**
 
 ```bash
 git clone git@github.com:awais786/claude-skills.git ~/claude-skills
 cp -r ~/claude-skills/skills/django-storages-s3 ~/.claude/skills/
 ```
 
-**Into a specific project (project-scoped):**
-
-```bash
-cp -r ~/claude-skills/skills/django-storages-s3 ./your-project/skills/
-```
-
-Once installed, Claude picks up the skill automatically when the topic is relevant.
+Once installed, invoke any skill with `/<skill-name>` or let Claude pick it up automatically.
 
 ## Available Skills
 
