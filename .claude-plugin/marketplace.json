@@ -1,0 +1,17 @@
+{
+  "name": "claude-skills",
+  "owner": {
+    "name": "Awais Qureshi",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "django-skills",
+      "description": "Django ORM and package skills for Claude Code — S3 storage, and more.",
+      "source": "./",
+      "skills": [
+        "./skills/django-storages-s3"
+      ]
+    }
+  ]
+}
