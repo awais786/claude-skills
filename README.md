@@ -26,6 +26,18 @@ Claude Code skills are **local Markdown files** — there is no central registry
 claude plugin marketplace add awais786/claude-skills
 ```
 
+**Via Skills CLI — list available skills:**
+
+```bash
+npx skills add awais786/claude-skills --list
+```
+
+**Via Skills CLI — single skill:**
+
+```bash
+npx skills add awais786/claude-skills --skill django-storages-s3
+```
+
 **Manual — all skills:**
 
 ```bash
