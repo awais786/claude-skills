@@ -26,7 +26,7 @@ Claude Code skills are **local Markdown files** — there is no central registry
 claude plugin marketplace add awais786/claude-skills
 ```
 
-**Via Skills CLI — list available skills:**
+**Via Skills CLI — all skills:**
 
 ```bash
 npx skills add awais786/claude-skills --list
@@ -94,13 +94,11 @@ Every `SKILL.md` must include:
 
 ## Sharing & Distribution
 
-Skills are distributed via **GitHub repos** — there is no Vercel, npm, or marketplace to submit them to. To share your skills:
+Skills are distributed via **GitHub repos**. To share your skills:
 
-1. Push this repo to GitHub (public or private)
-2. Others clone and copy the skills they want
-3. Optionally, include install instructions in your project's README
-
-> **Note:** If Anthropic introduces a skill marketplace or registry in the future, this README will be updated with submission instructions.
+1. Add a `.claude-plugin/marketplace.json` to your repo (see this repo for an example)
+2. Push to GitHub (public)
+3. Others install via `claude plugin marketplace add <github-user>/<repo>`
 
 ## Contributing
 
