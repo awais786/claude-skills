@@ -13,7 +13,7 @@ This repository contains Claude Code skills focused on Django — covering Djang
 
 ## Skills
 
-Skills live in `.claude/skills/<name>/SKILL.md` inside this repo and are installed to `~/.claude/skills/<name>/SKILL.md` (global, available across all projects). Each skill targets a specific Django package or ORM pattern and is invoked automatically by Claude when relevant, or manually via `/<name>`.
+Skills live in `skills/<name>/SKILL.md` inside this repo and are installed to `~/skills/<name>/SKILL.md` (global, available across all projects). Each skill targets a specific Django package or ORM pattern and is invoked automatically by Claude when relevant, or manually via `/<name>`.
 
 | Skill | Purpose | Key Topics |
 |-------|---------|------------|
@@ -26,21 +26,21 @@ Skills live in `.claude/skills/<name>/SKILL.md` inside this repo and are install
 git clone git@github.com:awais786/claude-skills.git ~/claude-skills
 
 # Copy a specific skill to the global skills directory
-cp -r ~/claude-skills/.claude/skills/django-storages-s3 ~/.claude/skills/
+cp -r ~/claude-skills/skills/django-storages-s3 ~/skills/
 ```
 
 Or copy all skills at once:
 
 ```bash
-cp -r ~/claude-skills/.claude/skills/. ~/.claude/skills/
+cp -r ~/claude-skills/skills/. ~/skills/
 ```
 
 ### Adding a New Skill
 
-1. Create `.claude/skills/<name>/SKILL.md`
+1. Create `skills/<name>/SKILL.md`
 2. Add a YAML frontmatter block with `name` and `description` fields
 3. Write reference content covering: installation, configuration, common patterns, code examples, testing, and pitfalls
-4. Copy to `~/.claude/skills/<name>/` to activate
+4. Copy to `~/skills/<name>/` to activate
 5. Register it in the skills table above and in `README.md`
 
 ### Skill Conventions
