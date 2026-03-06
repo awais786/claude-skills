@@ -1,9 +1,7 @@
 ---
 name: django-storages-s3
-description: Configure and use django-storages with AWS S3 for media and static file storage. Use when setting up S3 storage, writing custom storage backends, handling file uploads, generating presigned URLs, or integrating CloudFront CDN in a Django project.
+description: Configure Django with django-storages and AWS S3 for static and media files
 ---
-
-Help the user with django-storages S3 integration: $ARGUMENTS
 
 ## Package Installation
 

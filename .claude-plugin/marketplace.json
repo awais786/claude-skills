@@ -6,11 +6,11 @@
   },
   "plugins": [
     {
-      "name": "django-skills",
-      "description": "Django ORM and package skills for Claude Code — S3 storage, and more.",
-      "source": "./",
+      "name": "django-storages-s3",
+      "description": "Configure Django with django-storages and AWS S3 for static and media files",
+      "source": "./skills/django-storages-s3",
       "skills": [
-        "./skills/django-storages-s3"
+        "./skills/django-storages-s3/SKILL.md"
       ]
     }
   ]
