@@ -18,6 +18,7 @@ Skills live in `skills/<name>/SKILL.md` inside this repo and are installed to `~
 | Skill | Purpose | Key Topics |
 |-------|---------|------------|
 | `django-storages-s3` | Configure django-storages with AWS S3 | S3 setup, `STORAGES` dict (Django 4.2+), custom backends, presigned URLs, presigned uploads, CloudFront CDN, IAM policies, testing/mocking |
+| `django-upgrade` | Guide Django version upgrades | Deprecation warnings, breaking changes, tox/CI config, django-upgrade CLI, 4→5, 5→6 |
 
 ### Installing a Skill from GitHub
 

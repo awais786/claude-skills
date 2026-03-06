@@ -12,6 +12,14 @@
       "skills": [
         "./skills/django-storages-s3/SKILL.md"
       ]
+    },
+    {
+      "name": "django-upgrade",
+      "description": "Guide Django version upgrades with a test-driven workflow covering deprecations, breaking changes, and CI config",
+      "source": "./skills/django-upgrade",
+      "skills": [
+        "./skills/django-upgrade/SKILL.md"
+      ]
     }
   ]
 }

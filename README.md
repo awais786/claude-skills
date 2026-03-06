@@ -60,6 +60,7 @@ Once installed, invoke any skill with `/<skill-name>` or let Claude pick it up a
 | Skill | Description | Key Topics |
 |-------|-------------|------------|
 | [`django-storages-s3`](skills/django-storages-s3/SKILL.md) | Configure django-storages with AWS S3 | S3 setup, `STORAGES` dict (4.2+), custom backends, presigned URLs/uploads, CloudFront CDN, IAM, testing |
+| [`django-upgrade`](skills/django-upgrade/SKILL.md) | Guide Django version upgrades with a test-driven workflow | Deprecation warnings, breaking changes, tox/CI config, django-upgrade CLI, 4→5, 5→6 |
 
 ### `django-storages-s3`
 
